@@ -10,6 +10,8 @@ html {
 
 a {
     display: inline-block;
+    text-decoration: none;
+    color: $text;
 }
 
 ul,
@@ -20,8 +22,11 @@ li {
 }
 
 body {
-    background-color: blue;
-    color: #fff;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: $text;
 }
 
 .container {
